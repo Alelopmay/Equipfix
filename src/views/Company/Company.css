@@ -1,0 +1,13 @@
+/* Personalizar barra de desplazamiento */
+.overflow-auto::-webkit-scrollbar {
+    width: 8px; /* Ancho de la barra */
+}
+
+.overflow-auto::-webkit-scrollbar-thumb {
+    background-color: #334155; /* Color de la barra de desplazamiento */
+    border-radius: 4px;
+}
+
+.overflow-auto::-webkit-scrollbar-track {
+    background-color: #1e3a5f; /* Fondo de la pista */
+}
