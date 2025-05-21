@@ -7,7 +7,7 @@ import WorkerInspections from "../../Components/WorkerInspections/WorkerInspecti
 import PendingInspections from "../../Components/PedingInspections/PendingInspections";
 import EmployeeReportsList from "../../Components/EmployeeReportsList/EmployeeReportsList";
 import SettingsComponent from "../../Components/SettingsComponent/SettingsComponent"; // Importar ajustes
-import { getInspectionsByWorker } from "../../Services/INspectionService";
+import { getInspectionsByWorker } from "../../Services/InspectionService";
 import { getUserIdFromToken } from "../../Services/authUtils";
 
 const WorkArea = () => {

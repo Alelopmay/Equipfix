@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaMapMarkerAlt, FaArchive } from 'react-icons/fa';  // Importamos los iconos
-import { getInspectionsByWorker } from '../../Services/INspectionService';
+import { getInspectionsByWorker } from '../../Services/InspectionService';
 import { useNavigate } from 'react-router-dom'; // Importar useNavigate
 
 const WorkerInspections = ({ workerId }) => {

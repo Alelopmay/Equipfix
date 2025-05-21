@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom"; // ✅ Para redirigir a /work/:id
-import { getInspectionsByWorker, archiveInspection } from "../../Services/INspectionService";
+import { getInspectionsByWorker, archiveInspection } from "../../Services/InspectionService";
 import { getUserIdFromToken } from "../../Services/authUtils";
 import { FaArchive, FaMapMarkerAlt } from "react-icons/fa"; // ✅ Iconos necesarios
 

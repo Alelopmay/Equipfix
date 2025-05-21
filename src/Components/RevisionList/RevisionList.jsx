@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getAllInspections } from "../../Services/INspectionService";
+import { getAllInspections } from "../../Services/InspectionService";
 import { FaEye } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
