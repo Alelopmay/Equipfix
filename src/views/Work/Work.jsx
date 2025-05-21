@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { getInspectionDetailsById } from "../../Services/INspectionService";
+import { getInspectionDetailsById } from "../../Services/InspectionService";
+
 import { FaArrowLeft, FaSave, FaArchive } from "react-icons/fa";
 import { getUserIdFromToken } from "../../Services/authUtils";
 import "bootstrap/dist/css/bootstrap.min.css";

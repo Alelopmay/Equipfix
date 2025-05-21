@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const SettingsComponent = () => {
     // Estados para las configuraciones
     const [darkMode, setDarkMode] = useState(true);
     const [language, setLanguage] = useState("es");
     const [notifications, setNotifications] = useState(true);
-
+    const navigate = useNavigate();
     // Alternar modo oscuro
     const toggleDarkMode = () => {
         setDarkMode(!darkMode);
@@ -67,7 +68,7 @@ const SettingsComponent = () => {
                 <button className="btn btn-info w-100 mb-3">Actualizar contraseña</button>
 
                 {/* Cerrar sesión */}
-                <button className="btn btn-danger w-100">Cerrar sesión</button>
+                <button className="btn btn-danger w-100" onClick={() => navigate("/")}>Cerrar sesión</button>
             </div>
         </div>
     );

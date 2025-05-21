@@ -84,7 +84,7 @@ const WorkerInspections = ({ workerId }) => {
                                         onClick={() => handleUbicar(inspection.id)} // Redirigir al hacer click
                                     >
                                         <FaMapMarkerAlt className="me-2" />
-                                        Ubicar
+                                        informacion de ubicación
                                     </button>
 
                                     {/* Botón Archivar con icono */}
