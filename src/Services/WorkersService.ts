@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/workers';
+const API_URL = 'https://equipmentmaintenance.onrender.com/workers';
 
 export const getAllWorkers = async () => {
     try {

@@ -1,7 +1,7 @@
 // src/services/CompanyService.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/companies'; // URL base para la API
+const API_URL = 'https://equipmentmaintenance.onrender.com/companies'; // URL base para la API
 
 // Obtener todas las empresas
 export const getAllCompanies = async () => {

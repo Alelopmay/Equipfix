@@ -1,6 +1,6 @@
 // src/services/ReportService.js
 
-const API_URL = "http://localhost:8080/reports"; // URL de tu API
+const API_URL = "https://equipmentmaintenance.onrender.com/reports"; // URL de tu API
 
 // Crear reporte
 export const createReport = async (reportData) => {

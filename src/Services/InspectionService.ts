@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // La URL base para hacer las solicitudes a la API
-const API_URL = "http://localhost:8080/inspections"; // Cambia la URL si tu API está en otra ruta o dominio
+const API_URL = "'https://equipmentmaintenance.onrender.com/inspections"; // Cambia la URL si tu API está en otra ruta o dominio
 
 // Servicio para obtener todas las inspecciones
 export const getAllInspections = async () => {
